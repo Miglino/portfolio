@@ -1,0 +1,48 @@
+.navbar{
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.959);
+    display: flex;
+    position: sticky;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.navbar-left, .navbar-right {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.navbar-icon {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.774);
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+.navbar-center {
+    flex: 6;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar-list-item {
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.navbar-text{
+    color: aliceblue;
+    font-size: 23px;
+}
+
+

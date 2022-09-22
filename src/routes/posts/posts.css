@@ -1,0 +1,15 @@
+.posts-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.posts-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
